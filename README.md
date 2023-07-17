@@ -1,6 +1,6 @@
-# Team Name
+# Voltron
 
-### Team Members
+### Josh Csapo
 
 ### Final Proposal
 1. Persona/Scenario
