@@ -1,1 +1,118 @@
-/*insert style here*/
+body {
+    margin: 0px;
+    background-color: #f2eed8;
+  }
+
+  #container {
+      margin-left: 100px;
+      width: 1200px;
+      height: 532px;
+      background-color: #F8F0C6; 
+      border: 1pt;
+      box-shadow: 0px 2px 15px;
+      display: inline-flex;
+      position: relative;
+      }
+
+  #select-size-container {
+    width:100%;
+    height: 20%;
+    display: inline-flex;
+  }
+
+  #select-view-container {
+    width:100%;
+    height: 20%;
+    display: inline-flex;
+  }
+
+  #control-container {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  #range-container {
+    width: 100%;
+    height: 20%;
+    margin-top: 30px;
+    display: inline-flex;
+  }
+
+  #left-input {
+    width: 35%;
+    margin-right: -25px;
+  }
+
+  #right-input {
+    width: 35%;
+    margin-left: -25px;
+  }
+
+  #legend-container {
+    width: 1200px;
+    height: 40%;
+    display: inline-flex;
+    margin-left: 180px;
+    margin-top: -20px
+  }
+  
+  #map-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+  
+  #chart-container {
+      width:35%;
+      height: 100%;
+      background-color: #F8F0C6;
+  }
+  
+  #projection-container {
+      width: 100%;
+      height: 40%;
+      background-color: #F8F0C6;
+      margin-top: 5px;
+  }
+
+  
+  .dropdown {
+      font-size: large;
+      border-radius: 25px;
+      border-width: 2px;
+      width: 25%;
+      margin-left: 0px;
+      height: 45%;
+      background-color: #F8F0C6;
+      text-align: center;
+  }
+  
+  input[type=text] {
+      background-color: #F8F0C6;
+      color: black;
+      text-align: center;
+      font-size: medium;
+      border-radius: 25px;
+      width: 50%;
+      height: 40%
+    }
+
+    .infolabel {
+      position: absolute;
+      height: 30px;
+      min-width: 50px;
+      z-index: 5;
+      background-color: #F8F0C6;
+      border: solid thin black;
+      padding: 5px 10px;
+  }
+  
+  .infolabel h1 {
+      margin: 0 20px 0 0;
+      padding: 0;
+      display: inline-block;
+      line-height: 1em;
+  }
+  
